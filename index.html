@@ -41,6 +41,8 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(247,249,252,
 .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.72rem 1.6rem;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;font-family:'DM Sans',sans-serif;font-weight:500;transition:all .22s;cursor:pointer;border:none}
 .btn-primary{background:var(--navy);color:#fff}
 .btn-primary:hover{background:var(--navy-soft)}
+.btn-ghost{background:transparent;color:var(--blue);box-shadow:inset 0 0 0 1px var(--blue-pale)}
+.btn-ghost:hover{background:var(--blue-faint)}
 .btn-outline{background:transparent;color:var(--navy);box-shadow:inset 0 0 0 1px var(--border)}
 .btn-outline:hover{background:var(--stone)}
 .hero-side{padding-top:.25rem}
@@ -157,7 +159,7 @@ footer{border-top:1px solid var(--border);padding:1.75rem 2.5rem;max-width:1080p
     <div class="hero-btns">
       <a href="mailto:bennyschristina@gmail.com" class="btn btn-primary">Get in touch</a>
       <a href="https://www.linkedin.com/in/christina-benopoulou" class="btn btn-outline" target="_blank">LinkedIn ↗</a>
-      <a href="/CV_Christina-Benopoulou.pdf" class="btn" download>Download CV ↓</a>
+      <a href="/CV_Christina-Benopoulou.pdf" class="btn btn-ghost" download>Download CV ↓</a>
     </div>
   </div>
   <div class="hero-side reveal">
